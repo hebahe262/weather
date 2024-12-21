@@ -67,6 +67,9 @@ color: #bfc1c8 ;
   font-size: 14px;
     font-weight: 300;
 }
+.card{
+  border: none;
+}
   
   .cardtext{
     font-size: 90px;

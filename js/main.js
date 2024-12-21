@@ -24,14 +24,15 @@ const day = date.getDay();
 const daate = date.getDate(); 
 const month = date.getMonth(); 
 
-const nextday = day + 1;
+let nextday = day + 1;
 let dayAfterNextDay = nextday + 1;
 
-if (nextday >= 7) {
-  nextday = 0; 
-}
-if (dayAfterNextDay >= 7) {
+if (nextday == 6) {
   dayAfterNextDay = 0; 
+}
+if (day == 6) {
+  dayAfterNextDay = 1; 
+  nextday = 0
 }
 
 
@@ -90,7 +91,7 @@ function displayweather(list){
           
           
           <div class="col-xl-4  px-0">
-                        <div class="card border-0 text-center h-100 "style="background-color: #262936;">
+                        <div class="card border-0 text-center  "style="background-color: #262936;    padding-bottom: 50%;">
                           <div class="header rounded-2" style="background-color: #222530; color: rgb(191, 193, 200);">
                             <h2>${days[nextday]}</h2>
                           </div>
@@ -121,7 +122,7 @@ function displayweather(list){
           <!-- ========================================== -->
           
            <div class="col-xl-4 px-0">
-                        <div class="card  border-0  text-center h-100"style="background-color: #323544;">
+                        <div class="card    text-center"style="background-color: #323544; padding-bottom: 50%;">
                           <div class="header  rounded-2 " style="background-color: #2D303D; color: white;">
                             <h2>${days[dayAfterNextDay]}</h2>
                           </div>
