@@ -176,6 +176,6 @@ async function search(code){
 
 const listcity =document.getElementById("search");
 
-listcity.addEventListener("keypress",function(){
+listcity.addEventListener("input",function(){
     search(listcity.value)
 })
