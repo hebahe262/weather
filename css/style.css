@@ -1,0 +1,223 @@
+
+
+
+
+
+
+
+
+body{
+  font-family: sans-serif;
+
+}
+
+
+nav {
+  background-color:  #1E202B;
+  color:  white;
+}
+.nav-item {
+  transition: border .5s ;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.logo-text h1{
+  font-size: 1rem;
+  margin-bottom: 3px;
+  font-weight: 700;
+}
+.logo-text p{
+font-size: .625rem;
+margin-bottom: 0;
+font-weight: 300;
+color: #bfc1c8 ;
+}
+
+.nav-item:hover {
+  border: 1px solid #009ad8;
+}
+.nav-item.active{
+  border: 1px solid #009ad8;
+
+}
+.nav-link{
+  font-size: .875rem;
+  transition: color .3s ;
+  color: white;
+}
+
+.nav-link:focus{
+
+  color: white;
+}
+.navbar-nav .nav-link.active{
+  color: #009ad8;
+}
+.nav-link:hover{
+ color: #009ad8;
+}
+.pb-5 {
+  padding-bottom: 2rem !important;
+}
+.pt-5 {
+  padding-top: 2rem !important;
+}
+.cloudy{
+  font-size: 14px;
+    font-weight: 300;
+}
+  
+  .cardtext{
+    font-size: 90px;
+    font-weight: 700;
+  }
+  
+  .header h2,h3{
+    font-size: 14px;
+    font-weight: 400;
+   
+  }
+.textu{
+  font-size: 24px;
+    font-weight: 700;
+}
+  .po{
+    font-size: 14px;
+    font-weight: 300;
+   
+  }
+  .header{
+    padding: 6px;
+  }
+  .name h4{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .navbar-toggler{
+      padding: 30px;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      transition: all .5s;
+  }
+  .navbar-toggler:hover{
+      border: 1px solid #009ad8;
+  }
+  .navbar-toggler:focus {
+      text-decoration: none;
+      outline: 0;
+      box-shadow: none;
+  }     
+
+  .to{
+      color: white;
+      font-size: 20px;
+      transition: all .3s;
+  }
+  .navbar-toggler:hover  .to{
+      color: #009ad8;
+  }
+  
+
+
+/* ================================================================ */
+
+
+.cent{
+  background-image: url("../images/banner.png");
+  background-color:#1E202B;
+  background-repeat: no-repeat;
+  padding: 70px 0;
+}
+
+
+.search{
+  background-color: #1E202B;
+  color: white;
+  font-size: .875rem;
+  border: 1px solid #1E202B;
+  outline: none;
+}
+ 
+
+ .find{
+background-color: #009ad8;
+color: white;
+top: 50%;
+right: -30px;
+padding-inline: 2rem;
+padding-block: .6rem;
+font-size: .875rem;
+}
+
+
+
+sup {
+  
+  top: -0.1em;
+}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+
+.btn:hover {
+  color: white;
+  background-color: #009ad8;
+  border-color: #009ad8;
+}
+/* =============================================================== */
+/* .footer {
+  background-color: #262936;
+} */
+#subscribee{
+  background-color:#009ad8;
+  color: white;
+  top: 50%;
+  right: -55px;
+  padding-inline: 2rem;
+  padding-block: .6rem;
+  font-size: .875rem;
+}
+
+.icons i {
+  color :#009ad8;
+  width: 40px;
+  height: 40px;
+  padding-top: 11px;
+  background-color: #1E202B;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 16px;
+  transition: background-color .5s , color 0.3s;
+}
+.icons i:hover{
+  background-color: #009ad8;
+  color: white;
+}
+.fo{
+  color:#bfc1c8;
+  font-size: 14px;
+  font-weight: 300;
+
+
+}
+.contact{
+  background-color: #1E202B;
+  color: white;
+  font-size: .875rem;
+  border: 1px solid #1E202B;
+  outline: none;
+}
